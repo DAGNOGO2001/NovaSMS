@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- ========================================================= -->
+    <!-- BLEU : REMPLIT TOUTE L'ICÔNE -->
+    <!-- ========================================================= -->
+    <path
+        android:fillColor="#1E5088"
+        android:pathData="M0,0 H128 V128 H0 Z" />
+
+    <!-- ========================================================= -->
+    <!-- HORLOGE BLANCHE -->
+    <!-- ========================================================= -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:fillColor="#1E5088"
+        android:pathData="
+            M50,55
+            m-22,0
+            a22,22 0 1,0 44,0
+            a22,22 0 1,0 -44,0" />
+
+    <!-- Repères -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="
+            M50,37 V41
+            M50,69 V73
+            M32,55 H36
+            M64,55 H68" />
+
+    <!-- Aiguilles -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="
+            M40,45
+            L50,55
+            L62,43" />
+
+    <!-- Centre -->
+    <path
+        android:fillColor="#1E5088"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="
+            M50,55
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0" />
+
+    <!-- Trois points -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M82,73
+            m-2.8,0
+            a2.8,2.8 0 1,0 5.6,0
+            a2.8,2.8 0 1,0 -5.6,0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M91,73
+            m-2.8,0
+            a2.8,2.8 0 1,0 5.6,0
+            a2.8,2.8 0 1,0 -5.6,0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M100,73
+            m-2.8,0
+            a2.8,2.8 0 1,0 5.6,0
+            a2.8,2.8 0 1,0 -5.6,0" />
+
+</vector>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- ========================================= -->
+    <!-- FOND BLEU AVEC DÉGRADÉ DIAGONAL           -->
+    <!-- ========================================= -->
+    <path
+        android:pathData="
+            M27,4
+            H101
+            A23,23 0 0,1 124,27
+            V101
+            A23,23 0 0,1 101,124
+            H27
+            A23,23 0 0,1 4,101
+            V27
+            A23,23 0 0,1 27,4
+            Z">
+
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="4"
+                android:startY="4"
+                android:endX="124"
+                android:endY="124"
+                android:type="linear">
+
+                <item
+                    android:color="#008BE3"
+                    android:offset="0.0" />
+
+                <item
+                    android:color="#0D47A1"
+                    android:offset="1.0" />
+
+            </gradient>
+        </aapt:attr>
+
+    </path>
+
+    <!-- ========================================= -->
+    <!-- OMBRE SOUS LA BULLE                       -->
+    <!-- ========================================= -->
+    <path
+        android:fillColor="#18000000"
+        android:pathData="
+            M35,31
+            H93
+            A19,19 0 0,1 112,50
+            V73
+            A19,19 0 0,1 93,92
+            H84
+            L72,104
+            V92
+            H35
+            A19,19 0 0,1 16,73
+            V50
+            A19,19 0 0,1 35,31
+            Z" />
+
+    <!-- ========================================= -->
+    <!-- GRANDE BULLE BLANCHE TRÈS ARRONDIE       -->
+    <!-- ========================================= -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M34,28
+            H94
+            A20,20 0 0,1 114,48
+            V70
+            A20,20 0 0,1 94,90
+            H83
+            L71,103
+            V90
+            H34
+            A20,20 0 0,1 14,70
+            V48
+            A20,20 0 0,1 34,28
+            Z" />
+
+    <!-- ========================================= -->
+    <!-- GRANDE HORLOGE                            -->
+    <!-- ========================================= -->
+    <path
+        android:strokeColor="#1E5088"
+        android:strokeWidth="3.8"
+        android:fillColor="#F4F8FB"
+        android:pathData="
+            M 48 59
+            m -24,0
+            a 24,24 0 1,0 48,0
+            a 24,24 0 1,0 -48,0" />
+
+    <!-- ========================================= -->
+    <!-- REPÈRES DES HEURES                        -->
+    <!-- ========================================= -->
+    <path
+        android:strokeColor="#1E5088"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="
+            M48,37 V41
+            M48,77 V81
+            M26,59 H30
+            M66,59 H70" />
+
+    <!-- ========================================= -->
+    <!-- AIGUILLES — 10:10                        -->
+    <!-- ========================================= -->
+    <path
+        android:strokeColor="#1E5088"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="
+            M37,48
+            L48,59
+            L61,47" />
+
+    <!-- ========================================= -->
+    <!-- CENTRE DES AIGUILLES                     -->
+    <!-- ========================================= -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#1E5088"
+        android:strokeWidth="2.5"
+        android:pathData="
+            M48,59
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0" />
+
+    <!-- ========================================= -->
+    <!-- TROIS GROS POINTS                        -->
+    <!-- ========================================= -->
+    <path
+        android:fillColor="#1E5088"
+        android:pathData="
+            M78,72
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0" />
+
+    <path
+        android:fillColor="#1E5088"
+        android:pathData="
+            M87,72
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0" />
+
+    <path
+        android:fillColor="#1E5088"
+        android:pathData="
+            M96,72
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0" />
+
+</vector>
+
